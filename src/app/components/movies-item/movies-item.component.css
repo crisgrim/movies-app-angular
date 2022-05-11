@@ -1,0 +1,26 @@
+:host {
+  background-color: black;
+}
+
+.movies-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movies-list__item__link {
+  text-decoration: none;
+}
+
+.movies-list__item__title {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.movies-list__item__image {
+  display: block;
+  height: auto;
+  width: 100%;
+}
