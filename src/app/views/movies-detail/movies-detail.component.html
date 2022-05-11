@@ -1,0 +1,17 @@
+<main class="container">
+  <article class="movies-detail">
+    <div class="movies-detail__content">
+      <h1 class="movies-detail__title">{{movie?.title}}</h1>
+      <h2 class="movies-detail__subtitle">{{movie?.tagline}}</h2>
+      <p>{{movie?.overview}}</p>
+      <p><strong>Popularity: </strong>{{movie?.popularity}}</p>
+      <p><strong>Vote average: </strong>{{movie?.vote_average}}</p>
+      <p><strong>Vote count: </strong>{{movie?.vote_count}}</p>
+      <p><strong>Release date: </strong>{{movie?.release_date | date: 'longDate' }}</p>
+      <p><strong>Status: </strong>{{movie?.status}}</p>
+    </div>
+    <div class="movies-detail__image">
+      <img src="https://www.themoviedb.org/t/p/w440_and_h660_face/{{movie.poster_path}}" [alt]="movie.title" width="300" />
+    </div>
+  </article>
+</main>

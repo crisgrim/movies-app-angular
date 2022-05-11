@@ -1,0 +1,21 @@
+.movies-detail {
+  display: flex;
+}
+
+.movies-detail__content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.movies-detail__title {
+  font-size: 2em;
+  margin-bottom: 0.8em;
+}
+
+.movies-detail__subtitle {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
