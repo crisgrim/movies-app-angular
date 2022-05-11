@@ -1,0 +1,6 @@
+<ul class="movies-list">
+  <app-movies-item
+    *ngFor="let movie of movies; let i = index;"
+    [movie]="movie"
+  ></app-movies-item>
+</ul>

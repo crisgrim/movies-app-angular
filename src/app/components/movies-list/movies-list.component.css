@@ -1,0 +1,21 @@
+.movies-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .movies-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .movies-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
