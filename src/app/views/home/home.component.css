@@ -1,0 +1,18 @@
+.tab-button {
+  background-color: #01bcd4;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  padding: 1em 2em;
+  margin: 1em 0;
+}
+
+.tab-button:first-of-type {
+  margin-right: 1em;
+}
+
+.tab-button:disabled {
+  background-color: #aeaeae;
+  color: rgb(41, 41, 41);
+  cursor: not-allowed;
+}

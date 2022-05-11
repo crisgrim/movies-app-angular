@@ -1,0 +1,9 @@
+<main class="container">
+  <app-search-module
+    (search)="handleSearch($event)"
+  ></app-search-module>
+  <button class="tab-button" (click)="showPopular()" [disabled]="showingPopular">Show popular movies</button>
+  <button class="tab-button" (click)="showUpcoming()" [disabled]="showingUpcoming">Show upcoming movies</button>
+  <h1 class="title">{{ title }}</h1>
+  <app-movies-list [movies]="movies"></app-movies-list>
+</main>
